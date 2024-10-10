@@ -157,11 +157,13 @@
       <script>
         // Function to show the ad (called by Unity)
         function showAd() {
+                      console.log("Hello, The ad has started!");
             document.getElementById('adContainer').style.display = 'block';
         }
 
         // Function to hide the ad (called by Unity)
         function hideAd() {
+            console.log("Hello, The ad has completed!");
             document.getElementById('adContainer').style.display = 'none';
         }
     </script>
